@@ -1,0 +1,26 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  display: block; /* Removes the default inline-block spacing */
+}
+
+.options-menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+}
